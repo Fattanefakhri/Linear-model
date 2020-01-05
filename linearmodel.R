@@ -56,7 +56,7 @@ abline(0,1, col ="red")
 
 #================================================================================
 #read data set
-data.test.total<-read.csv("D:\\quera\\dataq\\data.csv")
+data.test.total<-read.csv("D:\\quera\\dataq\\test.csv")
 data.test.total<- data.test.total[,-13]
 str(data.test.total)
 # Remove NA's in test data
