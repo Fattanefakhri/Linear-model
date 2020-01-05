@@ -6,6 +6,7 @@ data.train<-data.train[,-13]
 data.train<- na.omit(data.train[,-19])
 names(data.train)
 attach(data.train)
+
 #================================================================================
 # A matrix of scatterplots is produced
 pairs(data.train, upper.panel = NULL)
@@ -71,4 +72,5 @@ for(i in 1:length(predtest[,2])){
 # predict value of Market with regession linear modeling is ploted
 plot(predtest[,1])
 summary(predtest)
-#================================================================================
+
+#end
